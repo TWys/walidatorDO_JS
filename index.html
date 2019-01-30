@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+    <title>Walidator numeru dowodu osobistego by Tomasz Wysocki</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Walidator PESEL by Tomasz Wysocki">
+    <meta name="keywords" content="Tomasz,Wysocki,Walidator,numer,PESEL">
+    <meta name="author" content="Tomasz Wysocki">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/TW.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/fontello/css/fontello.css">
+</head>
+<body>
+<container>
+	<div class="title">
+		WALIDATOR NUMERU DOWODU OSOBISTEGO
+	</div>
+	<div class="row center-xs">
+		<div class="col-xs-12 col-sm-10 col-lg-8 box">
+			<div class="box_title">Sprawdź poprawność numeru dowodu osobistego</div>
+			<div class="nrDO">Podaj numer DO: <input type="text" id="nrDO" size="11" placeholder="Numer DO" oninput="this.value=this.value.slice(0,9)"></div>
+			<div class="result_box"></div>
+			<button class="btn" id="walidate">Sprawdź!</button>
+		</div>
+	</div>
+	<footer>
+		Created by <a href="tomaszwysocki.pl">Tomasz Wysocki</a>
+		<a href="https://linkedin.com/in/tomasz-wysocki-95507a146" target="_blank"><i class="icon-linkedin social_media"></i></a>
+		<a href="https://github.com/TWys" target="_blank"><i class="icon-github-circled social_media"></i></a>
+	</footer>
+</container>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
